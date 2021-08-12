@@ -1,5 +1,5 @@
 /*
- * Licensed under the Apache License, Version 2.0 (the "License");
+ *    Licensed under the Apache License, Version 2.0 (the "License");
  *    you may not use this file except in compliance with the License.
  *    You may obtain a copy of the License at
  *
@@ -12,16 +12,13 @@
  *    limitations under the License.
  */
 
-package com.cuishifeng.validator;
+package com.cuishifeng.validator.constant;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+/**
+ * @author cuishifeng <cuishifeng@kuaishou.com>
+ * Created on 2021-08-12
+ */
+public class Constants {
 
-@SpringBootTest
-class EfficientToolApplicationTests {
-
-    @Test
-    void contextLoads() {
-    }
-
+    public static final String FILED_CONTENT_IS_ERROR = "PARAMETER ERROR: filedName=[%s] reason:[%s]";
 }
