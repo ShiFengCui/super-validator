@@ -15,7 +15,7 @@
 package com.cuishifeng.validator.constant;
 
 /**
- * @author cuishifeng <cuishifeng@kuaishou.com>
+ * @author cuishifeng <cuishifeng0207@163.com>
  * Created on 2021-08-12
  */
 public class Constants {
